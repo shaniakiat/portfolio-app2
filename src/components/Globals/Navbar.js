@@ -9,13 +9,18 @@ export default class Navbar extends Component {
     links: [
       {
         id: 1,
-        path: "/",
+        path: "/#home",
         text: "home",
       },
       {
         id: 2,
-        path: "/about",
+        path: "/#about",
         text: "about",
+      },
+      {
+        id: 3,
+        path: "/#contact",
+        text: "contact",
       },
     ],
   }
@@ -29,8 +34,8 @@ export default class Navbar extends Component {
   }
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
-        <Link className="navbar-brand">
+      <nav className="stroke navbar navbar-expand-sm bg-dark navbar-dark">
+        <Link to="/#home" className="navbar-brand">
           <img src={logo} alt="logo" height="30" />
         </Link>
         <button

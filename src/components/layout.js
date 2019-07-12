@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 
 import "./bootstrap.min.css"
 import "./layout.css"
@@ -15,15 +15,44 @@ import "./layout.css"
 import Navbar from "./globals/navbar"
 import Footer from "./globals/footer"
 
-const Layout = ({ children }) => {
-  return (
-    <div>
-      <Navbar />
-      {children}
-      <Footer />
-    </div>
-  )
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
 }
+
+// const Layout = ({ children }) => {
+//   return (
+//     <div>
+//       <Navbar />
+//       {children}
+//       <Footer />
+//     </div>
+//   )
+// }
+
+const Layout = ({ children }) => (
+  <StaticQuery
+    query={graphql`
+      query SiteTitleQuery {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `}
+    render={data => (
+      <>
+        <div>
+          <Navbar />
+          {/* <main>{children}</main> */}
+          {children}
+          <Footer />
+        </div>
+      </>
+    )}
+  />
+)
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
