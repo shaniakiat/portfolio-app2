@@ -1,12 +1,78 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:800&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:800|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:500|Roboto&display=swap");
 
 :root {
-  --mainDark: #17262b;
+  --mainDark: rgb(23, 38, 43);
   --mainGreen: #317a79;
   --mainBlue: #4bb0a9;
   --mainGrey: #def1f1;
   --mainWhite: #ffffff;
+}
+
+body {
+  background: var(--mainDark);
+  color: var(--mainDark);
+  font-family: "Roboto", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif !important;
+  letter-spacing: 0.5pt;
+  /* letter-spacing: 0.1rem !important; */
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  color: var(--mainWhite);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--mainGreen);
+}
+
+h4 {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif !important;
+}
+
+header a {
+  color: var(--mainDark);
+  background-color: var(--mainBlue);
+  font-size: 14px;
+  /* font-family: "Nunito Sans"; */
+  line-height: 0.5;
+  cursor: pointer;
+  margin-top: 25px;
+  border-image: initial;
+  border-radius: 5px;
+  padding: 0.8rem 1.75rem;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+a {
+  color: #fff;
+  display: inline-block;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+header a:hover {
+  color: #fff;
+  background-color: rgba(84, 138, 156, 0.5);
+  /* opacity: 0.5; */
 }
 
 .navbar {
@@ -19,4 +85,18 @@
 
 .nav-link:hover {
   color: var(--mainWhite) !important;
+}
+
+header {
+  padding: 150px 100px !important;
+}
+
+.footer {
+  background: var(--mainDark);
+}
+
+.copyright {
+  color: var(--mainBlue) !important;
+  font-size: 15px !important;
+  font-family: "Roboto", sans-serif !important;
 }
