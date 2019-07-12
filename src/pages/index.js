@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Header from "../components/globals/Header"
-import About from "../components/globals/About"
+import Header from "../components/globals/header"
+import About from "../components/globals/about"
 
 const IndexPage = () => (
   <Layout>
