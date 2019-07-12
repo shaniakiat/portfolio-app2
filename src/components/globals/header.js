@@ -2,7 +2,7 @@ import React, { Component } from "react"
 
 const myStyles = {
   backgroundColor: "#17262b",
-  height: "100%",
+  height: "100vh",
   backgroundSize: "cover",
   color: "#4bb0a9",
 }
