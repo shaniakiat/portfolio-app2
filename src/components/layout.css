@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:800|Roboto&display=swap");
+
+:root {
+  --mainDark: #17262b;
+  --mainGreen: #317a79;
+  --mainBlue: #4bb0a9;
+  --mainGrey: #def1f1;
+  --mainWhite: #ffffff;
+}
+
+.navbar {
+  background-color: var(--mainDark) !important;
+}
+
+.nav-link {
+  color: var(--mainBlue) !important;
+}
+
+.nav-link:hover {
+  color: var(--mainWhite) !important;
+}

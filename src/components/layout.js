@@ -16,7 +16,11 @@ import Navbar from "./Globals/Navbar"
 import Footer from "./Globals/Footer"
 
 const Layout = ({}) => {
-  return <div></div>
+  return (
+    <div>
+      <Navbar />
+    </div>
+  )
 }
 
 export default Layout

@@ -29,12 +29,12 @@ export default class Navbar extends Component {
   }
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-light navbar-light">
+      <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
         <Link className="navbar-brand">
           <img src={logo} alt="logo" height="30" />
         </Link>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler "
           type="button"
           onClick={this.navbarHandler}
         >
