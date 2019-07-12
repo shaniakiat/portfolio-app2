@@ -12,8 +12,8 @@ import { StaticQuery, graphql } from "gatsby"
 import "./bootstrap.min.css"
 import "./layout.css"
 
-import Navbar from "./globals/navbar"
-import Footer from "./globals/footer"
+import Navbar from "./globals/Navbar"
+import Footer from "./globals/Footer"
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
