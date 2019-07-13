@@ -1,5 +1,5 @@
-import React, { Component } from "./node_modules/react"
-import { Link } from "./node_modules/gatsby"
+import React, { Component } from "react"
+import { Link } from "gatsby"
 import logo from "../../images/logo.svg"
 
 export default class Navbar extends Component {
