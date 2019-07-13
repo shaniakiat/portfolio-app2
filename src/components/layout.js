@@ -12,7 +12,7 @@ import { StaticQuery, graphql } from "gatsby"
 import "./bootstrap.min.css"
 import "./layout.css"
 
-// import Navbar from "./Globals/Navbar"
+import Navbar from "./Globals/Navbar"
 // import Footer from "./Globals/Footer"
 
 // if (typeof window !== "undefined") {
@@ -21,7 +21,11 @@ import "./layout.css"
 // }
 
 const Layout = ({ children }) => {
-  return <div></div>
+  return (
+    <div>
+      <Navbar />
+    </div>
+  )
 }
 
 // const Layout = ({ children }) => (
