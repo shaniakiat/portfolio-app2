@@ -21,7 +21,7 @@ class About extends Component {
                 Aside from mathematics, computer science, and technology, I
                 enjoy photography, design, and coffee.
                 <br /> <br />
-                Please feel free to contact me at
+                Please feel free to contact me at&nbsp;
                 <a href="mailto:kiat.shania@gmail.com" className="email">
                   kiat.shania@gmail.com
                 </a>
