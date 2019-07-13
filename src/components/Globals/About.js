@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import Shania from "../../images/profile.png"
 import { Link } from "gatsby"
 
 class About extends Component {
@@ -7,7 +8,7 @@ class About extends Component {
       <section className="about" id="about">
         <div className="container">
           <div className="row">
-            <div className="col-10 col-sm-8">
+            <div class="col-xs-7 col-sm-6 col-lg-7">
               <h1>{this.props.title}</h1>
               <p>
                 I am an undergraduate at La Salle University, Philadelphia,
@@ -27,6 +28,14 @@ class About extends Component {
                 </a>
               </p>
               {/* <a href={"mailto:" + this.props.email}>email</a> */}
+            </div>
+            <div class="col-xs-5 col-sm-6 col-lg-3 hover shania">
+              <div class="square1"></div>
+              <div class="square2">
+                <figure>
+                  <img src={Shania} width="100%"></img>
+                </figure>
+              </div>
             </div>
           </div>
         </div>

@@ -20,13 +20,8 @@ class Header extends Component {
                 I'm an undergraduate student at La Salle University, PA <br />
                 majoring in mathematics and computer science.
               </p>
-              <a href="#resume">{this.props.button}</a>
+              <a href="mailto:kiat.shania@gmail.com">{this.props.button}</a>
             </div>
-            {/* <div>
-              <a href="mailto:kiat.shania@gmail.com" className="email">
-                kiat.shania@gmail.com
-              </a>
-            </div> */}
           </div>
         </div>
       </header>

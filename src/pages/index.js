@@ -9,7 +9,12 @@ import About from "../components/Globals/About"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Header id="home" class="header" title="Shania Kiat." button="Resume" />
+    <Header
+      id="home"
+      class="header"
+      title="Shania Kiat."
+      button="Get in Touch"
+    />
     <About id="about" class="about" title="About Me" />
   </Layout>
 )
