@@ -17,8 +17,7 @@ class Header extends Component {
           I'm an undergraduate student at La Salle University, PA <br />
           majoring in mathematics and computer science.
         </h3>
-        {/* <a href="#resume">{this.props.button}</a> */}
-        <a>{this.props.button}</a>
+        <a href="#resume">{this.props.button}</a>
       </header>
     )
   }
