@@ -11,13 +11,24 @@ class Header extends Component {
   render() {
     return (
       <header className="header" id="home" style={myStyles}>
-        {/* <h4>{this.props.intro}</h4> */}
-        <h1>{this.props.title}</h1>
-        <h3>
-          I'm an undergraduate student at La Salle University, PA <br />
-          majoring in mathematics and computer science.
-        </h3>
-        <a href="#resume">{this.props.button}</a>
+        <div className="container">
+          <div className="row">
+            <div className="col-10 col-sm-8">
+              {/* <h4>{this.props.intro}</h4> */}
+              <h1>{this.props.title}</h1>
+              <p>
+                I'm an undergraduate student at La Salle University, PA <br />
+                majoring in mathematics and computer science.
+              </p>
+              <a href="#resume">{this.props.button}</a>
+            </div>
+            {/* <div>
+              <a href="mailto:kiat.shania@gmail.com" className="email">
+                kiat.shania@gmail.com
+              </a>
+            </div> */}
+          </div>
+        </div>
       </header>
     )
   }
