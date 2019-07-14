@@ -5,10 +5,10 @@ import { Link } from "gatsby"
 class About extends Component {
   render() {
     return (
-      <section className="about" id="about">
+      <section id="about">
         <div className="container">
           <div className="row">
-            <div class="col-xs-10 col-sm-6 col-lg-7">
+            <div class="col-left col-sm-6 col-lg-7">
               <h1>{this.props.title}</h1>
               <p>
                 I am an undergraduate at La Salle University, Philadelphia,
@@ -22,21 +22,21 @@ class About extends Component {
                 Aside from mathematics, computer science, and technology, I
                 enjoy photography, design, and coffee.
                 <br /> <br />
-                Please feel free to contact me at&nbsp;
+                {/* Please feel free to contact me at&nbsp;
                 <a href="mailto:kiat.shania@gmail.com" className="email">
                   kiat.shania@gmail.com
-                </a>
+                </a> */}
               </p>
               {/* <a href={"mailto:" + this.props.email}>email</a> */}
             </div>
-            <div class="pic col-xs-1 col-sm-4 col-lg-3 hover shania">
+            {/* <div class="col-right pic col-sm-6 col-lg-5 hover shania center-block d-flex justify-content-center">
               <div class="square1"></div>
               <div class="square2">
                 <figure>
                   <img src={Shania} width="100%"></img>
                 </figure>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

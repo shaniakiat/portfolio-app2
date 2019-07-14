@@ -36,7 +36,6 @@ const Layout = ({ children }) => (
         <div id="page-container">
           <div id="content-wrap">
             <Navbar />
-            {/* <main>{children}</main> */}
             {children}
             <Footer />
           </div>

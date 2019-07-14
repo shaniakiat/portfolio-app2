@@ -103,7 +103,7 @@ nav div ul li .nav-link:hover:after {
 }
 
 header,
-.about {
+#about {
   width: 100%;
   height: 100%;
   display: flex;
@@ -116,18 +116,18 @@ header,
   background-size: cover; */
 }
 
-.about {
+#about {
   /* height: 80vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.about .row {
+#about .row {
   padding-bottom: 180px;
 }
 
-.about-h1 {
+#about-h1 {
   margin-left: 16px;
 }
 
@@ -141,24 +141,22 @@ header,
   filter: grayscale(0);
 }
 
-.square1 {
+/* .square1 {
   background: var(--mainGreen);
-  border-radius: 3px;
-  height: 350px;
-  width: 350px;
-  /* align-content: center; */
+  width: 100%;
+  height: 100%;
   margin: auto;
-  margin-top: 100px;
+  float: left;
   position: absolute;
   transition: transform 0.8s;
 }
 
 .square2 {
-  /* background: #2b3f53; */
+  background: #2b3f53;
   border-radius: 3px;
   height: 350px;
   width: 350px;
-  /* align-content: center; */
+  align-content: center;
   margin: auto;
   margin-top: 100px;
   float: left;
@@ -167,7 +165,7 @@ header,
 }
 .square2:hover {
   transform: translate(-20px, -20px);
-}
+} */
 
 /* @media only screen and (max-width: 600px) {
   .square2:hover {
@@ -193,7 +191,7 @@ header a {
 }
 
 a {
-  /* letter-spacing: 1px; */
+  letter-spacing: 1px;
   color: #fff;
   display: inline-block;
   text-decoration-skip-ink: auto;
@@ -231,12 +229,12 @@ header a.email {
   /* padding: 150px !important; 
   height: 100vh;
 } */
-.about p {
+#about p {
   color: var(--mainBlue);
   font-size: 1.2rem;
   font-family: "Raleway", sans-serif !important;
 }
-.about p .email:hover {
+#about p .email:hover {
   color: var(--mainWhite);
   text-decoration: none;
 }
