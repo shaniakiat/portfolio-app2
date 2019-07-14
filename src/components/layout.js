@@ -20,16 +20,6 @@ if (typeof window !== "undefined") {
   require("smooth-scroll")('a[href*="#"]')
 }
 
-// const Layout = ({ children }) => {
-//   return (
-//     <div>
-//       <Navbar />
-//       {children}
-//       <Footer />
-//     </div>
-//   )
-// }
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -43,11 +33,13 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <div>
-          <Navbar />
-          {/* <main>{children}</main> */}
-          {children}
-          <Footer />
+        <div id="page-container">
+          <div id="content-wrap">
+            <Navbar />
+            {/* <main>{children}</main> */}
+            {children}
+            <Footer />
+          </div>
         </div>
       </>
     )}

@@ -8,7 +8,7 @@ class About extends Component {
       <section className="about" id="about">
         <div className="container">
           <div className="row">
-            <div class="col-xs-7 col-sm-6 col-lg-7">
+            <div class="col-xs-10 col-sm-6 col-lg-7">
               <h1>{this.props.title}</h1>
               <p>
                 I am an undergraduate at La Salle University, Philadelphia,
@@ -29,7 +29,7 @@ class About extends Component {
               </p>
               {/* <a href={"mailto:" + this.props.email}>email</a> */}
             </div>
-            <div class="col-xs-5 col-sm-6 col-lg-3 hover shania">
+            <div class="pic col-xs-1 col-sm-4 col-lg-3 hover shania">
               <div class="square1"></div>
               <div class="square2">
                 <figure>
