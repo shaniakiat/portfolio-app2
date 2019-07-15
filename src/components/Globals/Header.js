@@ -1,19 +1,12 @@
 import React, { Component } from "react"
 
-const myStyles = {
-  backgroundColor: "#17262b",
-  height: "100vh",
-  backgroundSize: "cover",
-  color: "#4bb0a9",
-}
-
 class Header extends Component {
   render() {
     return (
-      <header className="header" id="home" style={myStyles}>
+      <header id="home">
         <div className="container">
           <div className="row">
-            <div className="col-10 col-sm-8">
+            <div class="col-xs-10 col-sm-10 col-lg-10">
               {/* <h4>{this.props.intro}</h4> */}
               <h1>{this.props.title}</h1>
               <p>

@@ -8,7 +8,7 @@ class About extends Component {
       <section id="about">
         <div className="container">
           <div className="row">
-            <div class="col-left col-sm-6 col-lg-7">
+            <div class="col-xs-10 col-sm-10 col-lg-10">
               <h1>{this.props.title}</h1>
               <p>
                 I am an undergraduate at La Salle University, Philadelphia,
