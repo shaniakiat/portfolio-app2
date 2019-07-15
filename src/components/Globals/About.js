@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Shania from "../../images/profile.png"
 import { Link } from "gatsby"
+import Fade from "react-reveal/Fade"
 
 class About extends Component {
   render() {
@@ -9,24 +10,28 @@ class About extends Component {
         <div className="container">
           <div className="row">
             <div class="col-xs-10 col-sm-10 col-lg-10">
-              <h1>{this.props.title}</h1>
-              <p>
-                I am an undergraduate at La Salle University, Philadelphia,
-                majoring in mathematics and computer science.
-                <br /> <br />
-                My career goals include becoming a software engineer and working
-                for a product or tool I believe in while giving a positive
-                impact on the world through my work and interactions with
-                others.
-                <br /> <br />
-                Aside from mathematics, computer science, and technology, I
-                enjoy photography, design, and coffee.
-                <br /> <br />
-                {/* Please feel free to contact me at&nbsp;
+              <Fade left>
+                <h1>{this.props.title}</h1>
+              </Fade>
+              <Fade right>
+                <p>
+                  I am an undergraduate at La Salle University, Philadelphia,
+                  majoring in mathematics and computer science.
+                  <br /> <br />
+                  My career goals include becoming a software engineer and
+                  working for a product or tool I believe in while giving a
+                  positive impact on the world through my work and interactions
+                  with others.
+                  <br /> <br />
+                  Aside from mathematics, computer science, and technology, I
+                  enjoy photography, design, and coffee.
+                  <br /> <br />
+                  {/* Please feel free to contact me at&nbsp;
                 <a href="mailto:kiat.shania@gmail.com" className="email">
                   kiat.shania@gmail.com
                 </a> */}
-              </p>
+                </p>
+              </Fade>
               {/* <a href={"mailto:" + this.props.email}>email</a> */}
             </div>
             {/* <div class="col-right pic col-sm-6 col-lg-5 hover shania center-block d-flex justify-content-center">
