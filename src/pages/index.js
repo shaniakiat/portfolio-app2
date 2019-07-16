@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Header from "../components/Globals/Header"
 import About from "../components/Globals/About"
 import Contact from "../components/Globals/Contact"
+import Project from "../components/Globals/Projects"
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
       button="Get In Touch"
     />
     <About id="about" class="about" title="About Me" />
+    <Project id="project" title="My Projects" />
     <Contact id="contact" title="Get In Touch" />
   </Layout>
 )
