@@ -11,10 +11,10 @@ export default function Footer() {
           <a href="https://www.linkedin.com/in/shania-kiat">
             <FaLinkedin className="linkedin-icon social" />
           </a>
-          <a href="https://twitter.com/bootsnipp">
+          <a href="https://github.com/shaniakiat">
             <FaGithub className="github-icon social" />
           </a>
-          <a href="https://plus.google.com/+Bootsnipp-page">
+          <a href="https://www.instagram.com/shania.took.this/">
             <FaInstagram className="insta-icon social" />
           </a>
         </div>
