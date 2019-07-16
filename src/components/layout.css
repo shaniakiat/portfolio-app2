@@ -104,7 +104,9 @@ header,
 #about,
 #project,
 #contact {
-  height: 100vh;
+  height: 100%;
+  margin: 110px 0;
+  padding: 110px 0;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -222,6 +224,54 @@ header a.email {
 #about p .email:hover {
   color: var(--mainWhite);
   text-decoration: none;
+}
+
+.border {
+  border: 0 !important;
+}
+
+.inner-width {
+  overflow: hidden;
+  margin: auto;
+  /* border: transparent; */
+}
+.about-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-col {
+    flex: 100%;
+  }
+}
+
+.about-col {
+  flex: 50%;
+}
+
+img,
+img:after,
+nav:before {
+  transition: all 0.5s;
+}
+
+img {
+  opacity: 0.3;
+  /* filter: grayscale(1); */
+}
+
+img:hover {
+  opacity: 1;
+  filter: initial; /* For IE8 and earlier */
+}
+
+.about-div {
+  padding-right: 30px;
 }
 
 #page-container {
