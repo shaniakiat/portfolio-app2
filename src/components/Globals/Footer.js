@@ -8,11 +8,11 @@ export default function Footer() {
     <footer className="footer py-3">
       <div className="container">
         <div class="text-center center-block">
-          <a href="https://www.linkedin.com/in/shania-kiat">
-            <FaLinkedin className="linkedin-icon social" />
+          <a href="https://www.linkedin.com/in/shania-kiat" target="_blank">
+            <FaLinkedin className="linkedin-icon social" target="_blank" />
           </a>
           <a href="https://github.com/shaniakiat">
-            <FaGithub className="github-icon social" />
+            <FaGithub className="github-icon social" target="_blank" />
           </a>
           <a href="https://www.instagram.com/shania.took.this/">
             <FaInstagram className="insta-icon social" />
