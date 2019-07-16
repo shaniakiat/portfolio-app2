@@ -241,9 +241,34 @@ header a.email {
   height: 20vh;
 }
 
-#contact p .email:hover {
+/* #contact p .email:hover {
   color: var(--mainWhite);
   text-decoration: none;
+}
+
+#contact p .email {
+  border-bottom: 1px solid #453886;
+  color: #453886;
+  padding-bottom: 0.25em;
+  text-decoration: none;
+} */
+
+#contact p .email {
+  background: linear-gradient(
+    to bottom,
+    var(--mainGreen) 0%,
+    var(--mainGreen) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-size 0.2s;
+}
+
+#contact p .email:hover {
+  background-size: 4px 50px;
 }
 
 .footer {
