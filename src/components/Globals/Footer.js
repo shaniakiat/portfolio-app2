@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer py-3">
       <div className="container">
         <div className="row">
-          <div className="col-10 mx-auto cold-md-6 text-center text-capitalize">
+          <div className="col-sm-12 mx-auto cold-md-12 text-center text-capitalize">
             <h3 className="copyright">
               Designed & Developed by Shania Kiat&nbsp;
               {new Date().getFullYear()}

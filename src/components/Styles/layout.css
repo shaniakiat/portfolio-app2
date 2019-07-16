@@ -12,18 +12,10 @@ font-family: 'Raleway', sans-serif;
   --mainWhite: #ffffff;
 }
 
-/* .overlay {
-  position: fixed;
-  overflow-y: scroll;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-} */
-
 body {
   background-color: var(--mainDark);
 }
+
 h1,
 h2,
 h3,
@@ -35,6 +27,19 @@ h6 {
   /* letter-spacing: 0.1rem !important; */
 }
 
+/* all link */
+a {
+  letter-spacing: 1px;
+  color: #fff;
+  display: inline-block;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+/* all h1 */
 h1 {
   font-size: 60pt;
   font-weight: 700;
@@ -116,26 +121,6 @@ header,
   background-color: var(--mainDark) !important;
 }
 
-@media only screen and (max-width: 768px) {
-  header,
-  #about,
-  #project,
-  #contact {
-    height: 100%;
-    margin: 150px 0;
-    padding: 150px 0;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--mainDark) !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--mainDark) !important;
-  }
-}
-
 .hover figure img {
   filter: opacity(0.7);
   -webkit-transition: 0.3s ease-in-out;
@@ -146,38 +131,6 @@ header,
   filter: grayscale(0);
 }
 
-/* .square1 {
-  background: var(--mainGreen);
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  float: left;
-  position: absolute;
-  transition: transform 0.8s;
-}
-
-.square2 {
-  background: #2b3f53;
-  border-radius: 3px;
-  height: 350px;
-  width: 350px;
-  align-content: center;
-  margin: auto;
-  margin-top: 100px;
-  float: left;
-  transition: transform 0.8s;
-  position: absolute;
-}
-.square2:hover {
-  transform: translate(-20px, -20px);
-} */
-
-/* @media only screen and (max-width: 600px) {
-  .square2:hover {
-    transform: initial;
-  }
-} */
-
 header a {
   color: var(--mainDark);
   background-color: var(--mainBlue);
@@ -186,23 +139,10 @@ header a {
   font-weight: 600;
   line-height: 1;
   cursor: pointer;
-  /* padding: 10px; */
-  margin-top: 20px;
+  margin-top: 10px;
   border-image: initial;
   border-radius: 20px;
   padding: 0.8rem 1.75rem;
-  text-decoration: none;
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-}
-
-a {
-  letter-spacing: 1px;
-  color: #fff;
-  display: inline-block;
-  text-decoration-skip-ink: auto;
-  color: inherit;
-  /* position: absolute; */
-  cursor: pointer;
   text-decoration: none;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
@@ -213,32 +153,18 @@ header a:hover {
   text-decoration: none;
   /* opacity: 0.5; */
 }
-
-header a.email {
-  all: initial;
-  letter-spacing: 1px;
-  /* display: inline-block; */
-  color: inherit;
-  font-size: 1rem;
-  font-family: "Raleway", sans-serif !important;
-  font-weight: 600;
-  line-height: 0.5;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-content: right;
-  /* padding: 50px; */
-}
 /* .about {
   background-color: var(--mainDark) !important;
   /* padding: 150px !important; 
   height: 100vh;
 } */
-#about p {
+#about p,
+#contact p {
   color: var(--mainBlue);
   font-size: 1.2rem;
   font-family: "Raleway", sans-serif !important;
 }
+
 #about p .email:hover {
   color: var(--mainWhite);
   text-decoration: none;
@@ -256,16 +182,6 @@ header a.email {
 .about-row {
   display: flex;
   flex-wrap: wrap;
-}
-
-@media only screen and (max-width: 768px) {
-  .about-row {
-    display: flex;
-    flex-direction: column;
-  }
-  .about-col {
-    flex: 100%;
-  }
 }
 
 .about-col {
@@ -308,26 +224,6 @@ nav:before {
   bottom: 0;
 }
 
-#contact p {
-  color: var(--mainBlue);
-  font-size: 1.2rem;
-  /* letter-spacing:  */
-  font-family: "Raleway", sans-serif !important;
-  height: 20vh;
-}
-
-/* #contact p .email:hover {
-  color: var(--mainWhite);
-  text-decoration: none;
-}
-
-#contact p .email {
-  border-bottom: 1px solid #453886;
-  color: #453886;
-  padding-bottom: 0.25em;
-  text-decoration: none;
-} */
-
 #contact p .email {
   background: linear-gradient(
     to bottom,
@@ -360,4 +256,76 @@ nav:before {
   font-size: 15px !important;
   font-family: "Raleway", sans-serif !important;
   font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  header,
+  #about,
+  #project,
+  #contact {
+    height: 100%;
+    margin: 120px 0;
+    padding: 120px 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--mainDark) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--mainDark) !important;
+  }
+
+  h1 {
+    font-size: 30pt;
+    font-weight: 700;
+    color: var(--mainWhite);
+    letter-spacing: 1.5px !important;
+  }
+
+  header p {
+    font-size: 1rem;
+    padding-right: 80px;
+  }
+
+  header a {
+    color: var(--mainDark);
+    background-color: var(--mainBlue);
+    font-size: 0.8rem;
+    font-family: "Raleway", sans-serif !important;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0px;
+    border-image: initial;
+    border-radius: 20px;
+    padding: 0.6rem 1rem;
+    text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  }
+
+  #about p,
+  #contact p {
+    font-size: 0.8rem;
+  }
+
+  .about-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-col {
+    flex: 100%;
+  }
+
+  .shania img {
+    width: 80%;
+    opacity: 0.8;
+    float: left;
+    margin-right: 0;
+    /* filter: grayscale(1); */
+  }
+
+  .copyright {
+    font-size: 12px !important;
+  }
 }

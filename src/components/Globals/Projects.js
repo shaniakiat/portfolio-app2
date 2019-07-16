@@ -13,12 +13,7 @@ class Project extends Component {
                 <h1>{this.props.title}</h1>
               </Fade>
               <Fade right>
-                <p>
-                  Please feel free to contact me at&nbsp;
-                  <a href="mailto:kiat.shania@gmail.com" className="email">
-                    kiat.shania@gmail.com
-                  </a>
-                </p>
+                <p></p>
               </Fade>
             </div>
           </div>

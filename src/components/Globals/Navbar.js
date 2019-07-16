@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import logo from "../../images/logo.svg"
+import logo from "../../images/logo-nav.svg"
 
 export default class Navbar extends Component {
   state = {
@@ -41,7 +41,7 @@ export default class Navbar extends Component {
     return (
       <nav className="stroke navbar navbar-expand-sm bg-dark navbar-dark">
         <Link to="/#home" className="navbar-brand">
-          <img src={logo} alt="logo" height="30" />
+          <img src={logo} alt="logo" height="40" width="40" />
         </Link>
         <button
           className="navbar-toggler "
