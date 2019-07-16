@@ -272,19 +272,24 @@ header a.email {
   flex: 50%;
 }
 
-img,
-img:after,
+.about-col .shania {
+  justify-content: right;
+}
+
+.shania img:after,
 nav:before {
   transition: all 0.5s;
 }
 
-img {
-  width: 60%;
+.shania img {
+  width: 80%;
   opacity: 0.8;
+  margin: 10%;
+  margin-right: 0;
   /* filter: grayscale(1); */
 }
 
-img:hover {
+.shania img:hover {
   opacity: 1;
   filter: initial; /* For IE8 and earlier */
 }
