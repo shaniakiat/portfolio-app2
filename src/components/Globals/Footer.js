@@ -1,9 +1,23 @@
 import React from "react"
+import { FaLinkedin } from "react-icons/fa"
+import { FaGithub } from "react-icons/fa"
+import { FaInstagram } from "react-icons/fa"
 
 export default function Footer() {
   return (
     <footer className="footer py-3">
       <div className="container">
+        <div class="text-center center-block">
+          <a href="https://www.linkedin.com/in/shania-kiat">
+            <FaLinkedin className="linkedin-icon social" />
+          </a>
+          <a href="https://twitter.com/bootsnipp">
+            <FaGithub className="github-icon social" />
+          </a>
+          <a href="https://plus.google.com/+Bootsnipp-page">
+            <FaInstagram className="insta-icon social" />
+          </a>
+        </div>
         <div className="row">
           <div className="col-sm-12 mx-auto cold-md-12 text-center text-capitalize">
             <h3 className="copyright">
