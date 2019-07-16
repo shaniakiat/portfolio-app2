@@ -32,7 +32,7 @@ class About extends Component {
                   </div>
                 </div>
                 <div className="about-col shania">
-                  <img src={Shania} width="80%"></img>
+                  <img src={Shania}></img>
                 </div>
               </Fade>
             </div>

@@ -104,9 +104,7 @@ header,
 #about,
 #project,
 #contact {
-  height: 100%;
-  margin: 110px 0;
-  padding: 110px 0;
+  height: 100vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -116,6 +114,26 @@ header,
   flex-direction: column;
   justify-content: center;
   background-color: var(--mainDark) !important;
+}
+
+@media only screen and (max-width: 768px) {
+  header,
+  #about,
+  #project,
+  #contact {
+    height: 100%;
+    margin: 150px 0;
+    padding: 150px 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--mainDark) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--mainDark) !important;
+  }
 }
 
 .hover figure img {
@@ -261,7 +279,8 @@ nav:before {
 }
 
 img {
-  opacity: 0.3;
+  width: 60%;
+  opacity: 0.8;
   /* filter: grayscale(1); */
 }
 
@@ -271,7 +290,7 @@ img:hover {
 }
 
 .about-div {
-  padding-right: 30px;
+  padding-right: 70px;
 }
 
 #page-container {
