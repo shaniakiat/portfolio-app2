@@ -12,7 +12,7 @@ class Header extends Component {
             <div class="col-xs-10 col-sm-10 col-lg-10">
               {/* <h4>{this.props.intro}</h4> */}
               <Fade left>
-                <h1>{this.props.title}</h1>
+                <h1 className="effect-1 data-text">{this.props.title}</h1>
               </Fade>
               <Fade right>
                 <p>
