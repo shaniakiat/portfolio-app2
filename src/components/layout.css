@@ -284,7 +284,7 @@ nav:before {
 .shania img {
   width: 80%;
   opacity: 0.8;
-  margin: 10%;
+  float: right;
   margin-right: 0;
   /* filter: grayscale(1); */
 }
