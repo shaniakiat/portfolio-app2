@@ -7,7 +7,7 @@ font-family: 'Raleway', sans-serif;
 :root {
   --mainDark: rgb(23, 38, 43);
   --mainGreen: #317a79;
-  --mainBlue: #4bb0a9;
+  --mainBlue: rgb(75, 176, 169);
   --mainGrey: #def1f1;
   --mainWhite: #ffffff;
 }
@@ -97,6 +97,17 @@ nav div ul li .nav-link:after {
 }
 nav div ul li .nav-link:hover:after {
   width: 50%;
+}
+
+.navbar-dark .navbar-toggler {
+  color: var(--mainBlue);
+  border-color: transparent;
+  outline: none;
+}
+
+svg {
+  width: 30px;
+  height: 30px;
 }
 
 .container {

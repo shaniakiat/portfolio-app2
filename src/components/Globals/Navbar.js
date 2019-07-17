@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import logo from "../../images/logo-nav.svg"
+import { TiThMenu } from "react-icons/ti"
 
 export default class Navbar extends Component {
   state = {
@@ -48,7 +49,9 @@ export default class Navbar extends Component {
           type="button"
           onClick={this.navbarHandler}
         >
-          <span className="navbar-toggler-icon" />
+          <TiThMenu></TiThMenu>
+          {/* <img src={TiThMenu} className="App-logo" alt="logo" /> */}
+          {/* <span className="navbar-toggler-icon" /> */}
         </button>
         <div className={this.state.css}>
           <ul className="navbar-nav ml-auto">
