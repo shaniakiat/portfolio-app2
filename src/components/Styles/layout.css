@@ -311,6 +311,21 @@ nav:before {
     justify-content: center;
     background-color: var(--mainDark) !important;
   }
+  nav div ul li .nav-link:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: ".";
+    color: transparent;
+    background: #4bb0a9;
+    height: 3px;
+  }
+  nav div ul li .nav-link:hover:after {
+    width: 10%;
+  }
 
   h1 {
     font-size: 30pt;
