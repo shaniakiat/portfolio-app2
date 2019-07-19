@@ -81,6 +81,7 @@ nav div ul li .nav-link:hover {
 
 nav div ul li .nav-link {
   position: relative;
+  text-align: center;
 }
 
 nav div ul li .nav-link:after {
@@ -120,7 +121,7 @@ header,
 #about,
 #project,
 #contact {
-  height: 100vh;
+  height: 90vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -298,9 +299,7 @@ nav:before {
   #about,
   #project,
   #contact {
-    height: 100%;
-    margin: 120px 0;
-    padding: 120px 0;
+    height: 100vh;
     background-size: cover;
     display: flex;
     flex-direction: column;

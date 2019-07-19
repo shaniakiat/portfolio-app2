@@ -45,7 +45,7 @@ export default class Navbar extends Component {
           <img src={logo} alt="logo" height="40" width="40" />
         </Link>
         <button
-          className="navbar-toggler "
+          className="navbar-toggler"
           type="button"
           onClick={this.navbarHandler}
         >
