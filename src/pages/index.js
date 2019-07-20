@@ -3,10 +3,10 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Header from "../components/Globals/Header"
-import About from "../components/Globals/About"
-import Contact from "../components/Globals/Contact"
-import Project from "../components/Globals/Projects"
+import Header from "../components/Globals/Home/Header"
+import About from "../components/Globals/Home/About"
+import Contact from "../components/Globals/Home/Contact"
+import Project from "../components/Globals/Home/Projects"
 
 const IndexPage = () => (
   <Layout>

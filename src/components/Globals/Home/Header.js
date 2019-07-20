@@ -2,7 +2,7 @@ import React, { Component } from "react"
 // import makeCarousel from "react-reveal/makeCarousel"
 import Fade from "react-reveal/Fade"
 import styled from "styled-components"
-import Resume from "../../../static/resume.pdf"
+import Resume from "../../../../static/resume.pdf"
 
 class Header extends Component {
   render() {

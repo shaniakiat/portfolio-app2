@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import Shania from "../../images/profile.png"
+import Shania from "../../../images/profile.png"
 import { Link } from "gatsby"
 import Fade from "react-reveal/Fade"
 
