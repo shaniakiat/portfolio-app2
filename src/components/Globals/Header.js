@@ -2,6 +2,7 @@ import React, { Component } from "react"
 // import makeCarousel from "react-reveal/makeCarousel"
 import Fade from "react-reveal/Fade"
 import styled from "styled-components"
+import Resume from "../../../static/resume.pdf"
 
 class Header extends Component {
   render() {
@@ -21,7 +22,9 @@ class Header extends Component {
                 </p>
               </Fade>
               <Fade left>
-                <a href="mailto:kiat.shania@gmail.com">{this.props.button}</a>
+                <a href={Resume} target="_blank">
+                  {this.props.button}
+                </a>
               </Fade>
             </div>
           </div>
