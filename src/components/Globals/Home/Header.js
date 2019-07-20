@@ -7,13 +7,13 @@ import Resume from "../../../../static/resume.pdf"
 class Header extends Component {
   render() {
     return (
-      <header id="home">
+      <header id="home mx-auto">
         <div className="container">
           <div className="row">
             <div class="col-xs-10 col-sm-10 col-lg-10">
               {/* <h4>{this.props.intro}</h4> */}
               <Fade left>
-                <h1 className="effect-1 data-text">{this.props.title}</h1>
+                <h1>{this.props.title}</h1>
               </Fade>
               <Fade right>
                 <p>

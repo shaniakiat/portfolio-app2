@@ -121,12 +121,11 @@ header,
 #about,
 #project,
 #contact {
-  height: 90vh;
+  height: 100vh;
+}
+
+header {
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--mainDark) !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -182,37 +181,16 @@ header a:hover {
   text-decoration: none;
 }
 
-.border {
-  border: 0 !important;
-}
-
-.inner-width {
-  overflow: hidden;
-  margin: auto;
-  /* border: transparent; */
-}
-.about-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.about-col {
-  flex: 50%;
-}
-
-.about-col .shania {
-  justify-content: right;
-}
-
 .shania img:after,
 nav:before {
   transition: all 0.5s;
 }
 
 .shania img {
-  width: 60%;
+  width: 250px;
+  height: 250px;
   opacity: 0.8;
-  float: right;
+  /* float: right; */
   margin-right: 0;
   /* filter: grayscale(1); */
 }
@@ -300,15 +278,6 @@ nav:before {
   #project,
   #contact {
     height: 100vh;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--mainDark) !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--mainDark) !important;
   }
   nav div ul li .nav-link:after {
     position: absolute;
@@ -367,11 +336,8 @@ nav:before {
   }
 
   .shania img {
-    width: 60%;
-    opacity: 0.8;
-    float: left;
-    margin-right: 0;
-    /* filter: grayscale(1); */
+    width: 220px;
+    height: 220px;
   }
 
   .footer a {
