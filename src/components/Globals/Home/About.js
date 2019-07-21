@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Shania from "../../../images/profile.png"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import Fade from "react-reveal/Fade"
 
 class About extends Component {
@@ -30,7 +30,7 @@ class About extends Component {
                 </div>
               </div>
               <div className="col-md-3 col-sm-5 shania">
-                <img src={Shania}></img>
+                <img src={Shania} alt="me"></img>
               </div>
             </Fade>
           </div>
