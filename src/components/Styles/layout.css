@@ -232,6 +232,13 @@ nav:before {
   background-size: 4px 50px;
 }
 
+#about,
+#project,
+#contact {
+  padding-top: 20vh;
+  height: 90vh;
+}
+
 .footer {
   position: absolute;
   bottom: 0;

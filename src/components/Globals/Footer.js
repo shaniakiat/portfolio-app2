@@ -9,12 +9,12 @@ export default function Footer() {
       <div className="container">
         <div class="text-center center-block">
           <a href="https://www.linkedin.com/in/shania-kiat" target="_blank">
-            <FaLinkedin className="linkedin-icon social" target="_blank" />
+            <FaLinkedin className="linkedin-icon social" />
           </a>
-          <a href="https://github.com/shaniakiat">
-            <FaGithub className="github-icon social" target="_blank" />
+          <a href="https://github.com/shaniakiat" target="_blank">
+            <FaGithub className="github-icon social" />
           </a>
-          <a href="https://www.instagram.com/shania.took.this/">
+          <a href="https://www.instagram.com/shania.took.this/" target="_blank">
             <FaInstagram className="insta-icon social" />
           </a>
         </div>
