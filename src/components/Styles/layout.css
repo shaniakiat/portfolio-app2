@@ -374,3 +374,30 @@ nav:before {
     font-size: 12px !important;
   }
 }
+
+// test
+.about {
+  margin: 2rem 0;
+}
+
+.about .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.about h1 {
+  font-size: 60pt;
+  color: var(--mainWhite);
+  padding: 0 133px;
+}
+
+.about p {
+  margin: 1rem 0;
+  color: var(--mainBlue);
+  font-size: 20px;
+  font-family: Raleway, sans-serif !important;
+}
