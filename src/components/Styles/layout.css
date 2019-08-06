@@ -118,7 +118,6 @@ svg {
 }
 
 header,
-#about,
 #project,
 #contact {
   height: 100vh;
@@ -169,17 +168,17 @@ header a:hover {
   /* padding: 150px !important; 
   height: 100vh;
 } */
-#about p,
+/* #about p, */
 #contact p {
   color: var(--mainBlue);
   font-size: 1.2rem;
   font-family: "Raleway", sans-serif !important;
 }
 
-#about p .email:hover {
+/* #about p .email:hover {
   color: var(--mainWhite);
   text-decoration: none;
-}
+} */
 
 .shania img:after,
 nav:before {
@@ -232,7 +231,7 @@ nav:before {
   background-size: 4px 50px;
 }
 
-#about,
+/* #about, */
 #project,
 #contact {
   padding-top: 20vh;
@@ -281,7 +280,7 @@ nav:before {
 
 @media only screen and (max-width: 768px) {
   header,
-  #about,
+  /* #about, */
   #project,
   #contact {
     height: 100vh;
@@ -329,22 +328,9 @@ nav:before {
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
 
-  #about p,
+  /* #about p, */
   #contact p {
     font-size: 0.8rem;
-  }
-
-  .about-row {
-    display: flex;
-    flex-direction: column;
-  }
-  .about-col {
-    flex: 100%;
-  }
-
-  .shania img {
-    width: 220px;
-    height: 220px;
   }
 
   .footer a {
@@ -377,6 +363,10 @@ nav:before {
 
 // test
 
+section {
+  height: 100vh;
+  padding: 100px;
+}
 section .about {
   margin: 2rem 0;
   height: 100vh;
@@ -407,8 +397,40 @@ section .about {
 }
 
 .about p {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   color: var(--mainBlue);
-  font-size: 20px;
+  font-size: 16px;
   font-family: Raleway, sans-serif !important;
+}
+
+@media (max-width: 768px) {
+  .about .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .about .container div:first-child {
+    order: 2;
+  }
+
+  .about .container div:nth-child(2) {
+    order: -1;
+  }
+
+  .about h1 {
+    font-size: 30pt;
+    font-weight: 700;
+    color: var(--mainWhite);
+    letter-spacing: 1.5px !important;
+    margin: 0;
+  }
+
+  .about img {
+    width: 60%;
+    margin: auto;
+    align-content: flex-start;
+  }
 }

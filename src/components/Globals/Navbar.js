@@ -9,22 +9,22 @@ export default class Navbar extends Component {
     css: "collapse navbar-collapse",
     links: [
       {
-        id: 1,
+        class: 1,
         path: "/#home",
         text: "home",
       },
       {
-        id: 2,
+        class: 2,
         path: "/#about",
         text: "about",
       },
       {
-        id: 3,
+        class: 3,
         path: "/#project",
         text: "project",
       },
       {
-        id: 4,
+        class: 4,
         path: "/#contact",
         text: "contact",
       },
@@ -57,7 +57,7 @@ export default class Navbar extends Component {
           <ul className="navbar-nav ml-auto">
             {this.state.links.map(link => {
               return (
-                <li key={link.id} className="nav-item">
+                <li key={link.class} className="nav-item">
                   <Link to={link.path} className="nav-link text-capitalize">
                     {link.text}
                   </Link>

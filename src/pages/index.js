@@ -11,10 +11,10 @@ import Project from "../components/Globals/Home/Projects"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home | Shania Kiat" />
-    <Header id="home" class="header" title="Shania Kiat." button="Resume" />
-    <About id="about" class="about" title="About Me" />
-    <Project id="project" title="My Projects" />
-    <Contact id="contact" title="Get In Touch" />
+    <Header class="header" title="Shania Kiat." button="Resume" />
+    <About class="about" title="About Me" />
+    <Project class="project" title="My Projects" />
+    <Contact class="contact" title="Get In Touch" />
   </Layout>
 )
 

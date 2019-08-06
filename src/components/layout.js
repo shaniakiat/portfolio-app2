@@ -12,6 +12,13 @@ import { StaticQuery, graphql } from "gatsby"
 import "./bootstrap.min.css"
 import "../components/Styles/layout.css"
 
+// import "../components/Styles/navbar.css"
+// import "../components/Styles/home.css"
+// import "../components/Styles/about.css"
+// import "../components/Styles/project.css"
+// import "../components/Styles/contact.css"
+// import "../components/Styles/footer.css"
+
 import Navbar from "./Globals/Navbar"
 import Footer from "./Globals/Footer"
 
