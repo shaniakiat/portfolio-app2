@@ -49,9 +49,7 @@ export default class Navbar extends Component {
           type="button"
           onClick={this.navbarHandler}
         >
-          <TiThMenu></TiThMenu>
-          {/* <img src={TiThMenu} className="App-logo" alt="logo" /> */}
-          {/* <span className="navbar-toggler-icon" /> */}
+          <TiThMenu> </TiThMenu>
         </button>
         <div className={this.state.css}>
           <ul className="navbar-nav ml-auto">
