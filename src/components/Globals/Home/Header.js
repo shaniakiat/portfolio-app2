@@ -7,27 +7,28 @@ import Resume from "../../../../static/resume.pdf"
 class Header extends Component {
   render() {
     return (
-      <header id="home mx-auto">
+      <header id="home" class="home">
         <div className="container">
-          <div className="row">
-            <div class="col-xs-10 col-sm-10 col-lg-10">
-              {/* <h4>{this.props.intro}</h4> */}
-              <Fade bottom>
-                <h1>{this.props.title}</h1>
-              </Fade>
-              <Fade bottom>
-                <p>
-                  I'm an undergraduate student at La Salle University, PA <br />
-                  majoring in mathematics and computer science.
-                </p>
-              </Fade>
-              <Fade bottom>
-                <a href={Resume} target="_blank" rel="noopener noreferrer">
-                  {this.props.button}
-                </a>
-              </Fade>
-            </div>
-          </div>
+          {/* <h4>{this.props.intro}</h4> */}
+          <Fade bottom>
+            <h1>{this.props.title}</h1>
+          </Fade>
+          <Fade bottom>
+            <p>
+              I'm an undergraduate student at La Salle University, PA <br />
+              majoring in mathematics and computer science.
+            </p>
+          </Fade>
+          <Fade bottom>
+            <a
+              href={Resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn"
+            >
+              {this.props.button}
+            </a>
+          </Fade>
         </div>
       </header>
     )

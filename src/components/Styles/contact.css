@@ -1,0 +1,46 @@
+@import url("layout.css");
+
+.contact h1 {
+  font-size: 45pt;
+  font-weight: 700;
+  color: var(--mainWhite);
+  letter-spacing: 1.5px !important;
+  text-align: center;
+}
+
+.contact h1::before,
+.contact h1::after {
+  display: inline-block;
+  content: "";
+  border-top: 1px solid rgb(255, 255, 255);
+  width: 6rem;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+}
+
+.contact p {
+  text-align: center;
+  color: var(--mainBlue);
+  font-size: 16px;
+  font-family: "Raleway", sans-serif !important;
+  /* padding: 20px; */
+  margin: 30px 0;
+}
+
+.contact p .email {
+  background: linear-gradient(
+    to bottom,
+    var(--mainGreen) 0%,
+    var(--mainGreen) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  transition: background-size 0.2s;
+}
+
+.contact p .email:hover {
+  background-size: 4px 50px;
+}

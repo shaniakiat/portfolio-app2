@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade"
 class Contact extends Component {
   render() {
     return (
-      <section class="contact">
+      <section id="contact" class="contact">
         <div className="container">
           <Fade bottom>
             <h1>{this.props.title}</h1>

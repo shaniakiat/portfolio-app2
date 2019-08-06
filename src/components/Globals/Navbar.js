@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 import logo from "../../images/logo-nav.svg"
 import { TiThMenu } from "react-icons/ti"
+import Fade from "react-reveal/Fade"
 
 export default class Navbar extends Component {
   state = {
@@ -40,31 +41,33 @@ export default class Navbar extends Component {
   }
   render() {
     return (
-      <nav className="stroke navbar navbar-expand-sm bg-dark navbar-dark">
-        <Link to="/#home" className="navbar-brand">
-          <img src={logo} alt="logo" height="40" width="40" />
-        </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          onClick={this.navbarHandler}
-        >
-          <TiThMenu> </TiThMenu>
-        </button>
-        <div className={this.state.css}>
-          <ul className="navbar-nav ml-auto">
-            {this.state.links.map(link => {
-              return (
-                <li key={link.class} className="nav-item">
-                  <Link to={link.path} className="nav-link text-capitalize">
-                    {link.text}
-                  </Link>
-                </li>
-              )
-            })}
-          </ul>
-        </div>
-      </nav>
+      <Fade top>
+        <nav className="stroke navbar navbar-expand-sm bg-dark navbar-dark">
+          <Link to="/#home" className="navbar-brand">
+            <img src={logo} alt="logo" height="40" width="40" />
+          </Link>
+          <button
+            className="navbar-toggler"
+            type="button"
+            onClick={this.navbarHandler}
+          >
+            <TiThMenu> </TiThMenu>
+          </button>
+          <div className={this.state.css}>
+            <ul className="navbar-nav ml-auto">
+              {this.state.links.map(link => {
+                return (
+                  <li key={link.class} className="nav-item">
+                    <Link to={link.path} className="nav-link text-capitalize">
+                      {link.text}
+                    </Link>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        </nav>
+      </Fade>
     )
   }
 }

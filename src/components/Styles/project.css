@@ -1,0 +1,19 @@
+@import url("layout.css");
+
+.project h1 {
+  font-size: 45pt;
+  font-weight: 700;
+  color: var(--mainWhite);
+  letter-spacing: 1.5px !important;
+  text-align: center;
+}
+
+.project h1::before,
+.project h1::after {
+  display: inline-block;
+  content: "";
+  border-top: 1px solid var(--mainWhite);
+  width: 6rem;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+}

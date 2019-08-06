@@ -1,6 +1,7 @@
 @import url("layout.css");
 
 .navbar {
+  padding: 8px 50px;
   background-color: var(--mainDark) !important;
   font-family: "Raleway", sans-serif !important;
   font-weight: 600;

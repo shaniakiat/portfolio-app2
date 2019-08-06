@@ -1,0 +1,66 @@
+@import url("layout.css");
+
+.about .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.about h1 {
+  font-size: 45pt;
+  font-weight: 700;
+  color: var(--mainWhite);
+  letter-spacing: 1.5px !important;
+  padding-left: 15px;
+}
+
+.about h1::after {
+  display: inline-block;
+  content: "";
+  border-top: 1px solid var(--mainWhite);
+  width: 12rem;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+}
+
+.about p {
+  margin: 1.5rem 0;
+  color: var(--mainBlue);
+  font-size: 16px;
+  font-family: Raleway, sans-serif !important;
+}
+
+@media (max-width: 768px) {
+  .about .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .about .container div:first-child {
+    order: 2;
+  }
+
+  .about .container div:nth-child(2) {
+    order: -1;
+  }
+
+  .about h1 {
+    font-size: 30pt;
+    font-weight: 700;
+    color: var(--mainWhite);
+    letter-spacing: 1.5px !important;
+    margin: 0;
+  }
+
+  .about img {
+    width: 60%;
+    margin: auto;
+    align-content: flex-start;
+  }
+}
