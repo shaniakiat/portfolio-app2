@@ -5,14 +5,14 @@ import Fade from "react-reveal/Fade"
 class Project extends Component {
   render() {
     return (
-      <section id="project">
+      <section class="project">
         <div className="container">
           <div className="row">
             <div class="col-left col-xs-10 col-sm-10 col-lg-10">
-              <Fade left>
+              <Fade bottom>
                 <h1>{this.props.title}</h1>
               </Fade>
-              <Fade right>
+              <Fade bottom>
                 <p></p>
               </Fade>
             </div>

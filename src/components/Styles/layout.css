@@ -119,7 +119,7 @@ header a:hover {
   height: 100vh;
 } */
 /* #about p, */
-#contact p {
+.contact p {
   color: var(--mainBlue);
   font-size: 1.2rem;
   font-family: "Raleway", sans-serif !important;
@@ -158,7 +158,7 @@ header a:hover {
   bottom: 0;
 }
 
-#contact p .email {
+.contact p .email {
   background: linear-gradient(
     to bottom,
     var(--mainGreen) 0%,
@@ -172,13 +172,13 @@ header a:hover {
   transition: background-size 0.2s;
 }
 
-#contact p .email:hover {
+.contact p .email:hover {
   background-size: 4px 50px;
 }
 
 /* #about,
 #project,
-#contact {
+.contact {
   padding-top: 20vh;
   height: 90vh;
 } */
@@ -187,7 +187,7 @@ header a:hover {
   header,
   /* #about, */
   #project,
-  #contact {
+  .contact {
     height: 100vh;
   }
 
@@ -219,7 +219,7 @@ header a:hover {
   }
 
   /* #about p, */
-  #contact p {
+  .contact p {
     font-size: 0.8rem;
   }
 }

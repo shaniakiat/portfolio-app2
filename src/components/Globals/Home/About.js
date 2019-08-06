@@ -7,25 +7,33 @@ class About extends Component {
   render() {
     return (
       <section class="about">
-        <h1>{this.props.title}</h1>
+        <Fade bottom>
+          <h1>{this.props.title}</h1>
+        </Fade>
+
         <div class="container">
           <div>
-            <p>
-              I am an undergraduate at La Salle University, Philadelphia,
-              majoring in mathematics and computer science.
-              <br /> <br />
-              My career goals include becoming a software engineer and working
-              for a product or tool I believe in while giving a positive impact
-              on the world through my work and interactions with others.
-              <br /> <br />
-              Aside from mathematics, computer science, and technology, I enjoy
-              photography, design, and coffee.
-            </p>
-            <a href="#" class="btn">
+            <Fade bottom>
+              <p>
+                I am an undergraduate at La Salle University, Philadelphia,
+                majoring in mathematics and computer science.
+                <br /> <br />
+                My career goals include becoming a software engineer and working
+                for a product or tool I believe in while giving a positive
+                impact on the world through my work and interactions with
+                others.
+                <br /> <br />
+                Aside from mathematics, computer science, and technology, I
+                enjoy photography, design, and coffee.
+              </p>
+            </Fade>
+            {/* <a href="#" class="btn">
               Read More
-            </a>
+            </a> */}
           </div>
-          <img src={Shania} alt="me" width="100%"></img>
+          <Fade bottom>
+            <img src={Shania} alt="me" width="100%"></img>
+          </Fade>
         </div>
       </section>
     )

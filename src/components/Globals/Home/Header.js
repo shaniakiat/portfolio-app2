@@ -12,16 +12,16 @@ class Header extends Component {
           <div className="row">
             <div class="col-xs-10 col-sm-10 col-lg-10">
               {/* <h4>{this.props.intro}</h4> */}
-              <Fade left>
+              <Fade bottom>
                 <h1>{this.props.title}</h1>
               </Fade>
-              <Fade right>
+              <Fade bottom>
                 <p>
                   I'm an undergraduate student at La Salle University, PA <br />
                   majoring in mathematics and computer science.
                 </p>
               </Fade>
-              <Fade left>
+              <Fade bottom>
                 <a href={Resume} target="_blank" rel="noopener noreferrer">
                   {this.props.button}
                 </a>
