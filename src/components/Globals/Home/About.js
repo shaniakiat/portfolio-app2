@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade"
 class About extends Component {
   render() {
     return (
-      <section class="about">
+      <section class="about" id="about">
         <h1>{this.props.title}</h1>
         <div class="container">
           <div>

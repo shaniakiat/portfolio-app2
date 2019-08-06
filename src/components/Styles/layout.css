@@ -259,7 +259,7 @@ nav:before {
   color: var(--mainBlue);
   cursor: pointer;
   font-size: 3rem;
-  padding: 5px;
+  padding: 0 5px;
 }
 
 .footer .social:hover {
@@ -376,8 +376,11 @@ nav:before {
 }
 
 // test
-.about {
+
+section .about {
   margin: 2rem 0;
+  height: 100vh;
+  padding: 100px;
 }
 
 .about .container {
@@ -387,12 +390,20 @@ nav:before {
   align-items: center;
   justify-content: center;
   justify-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 19.5;
+  margin-left: 19.5px;
 }
 
 .about h1 {
   font-size: 60pt;
   color: var(--mainWhite);
-  padding: 0 133px;
+
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 19.5;
+  margin-left: 19.5px;
 }
 
 .about p {

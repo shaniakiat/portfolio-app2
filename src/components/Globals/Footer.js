@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa"
 
 export default function Footer() {
   return (
-    <footer className="footer py-3">
+    <footer className="footer">
       <div className="container">
         <div class="text-center center-block">
           <a href="https://www.linkedin.com/in/shania-kiat" target="_blank">
