@@ -12,8 +12,8 @@ header h1 {
 
 header a {
   display: inline-block;
-  color: var(--mainDark);
-  background-color: var(--mainBlue);
+  color: var(--mainDark) !important;
+  background-color: var(--mainBlue) !important;
   font-size: 1rem;
   font-family: "Raleway", sans-serif !important;
   font-weight: 600;
@@ -21,7 +21,7 @@ header a {
   cursor: pointer;
   margin-top: 10px;
   border-image: initial;
-  border-radius: 20px;
+  border-radius: 30px !important;
   padding: 0.8rem 1.75rem;
   text-decoration: none;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
@@ -30,7 +30,7 @@ header a {
 
 header a:hover {
   color: #fff;
-  background-color: rgba(84, 138, 156, 0.5);
+  background-color: rgba(84, 138, 156, 0.5) !important;
   text-decoration: none;
   opacity: 0.5;
 }

@@ -81,18 +81,6 @@ svg {
   filter: grayscale(0);
 }
 
-/* .about {
-  background-color: var(--mainDark) !important;
-  /* padding: 150px !important; 
-  height: 100vh;
-} */
-/* #about p, */
-
-/* #about p .email:hover {
-  color: var(--mainWhite);
-  text-decoration: none;
-} */
-
 .shania img {
   width: 250px;
   height: 250px;
@@ -101,31 +89,10 @@ svg {
   margin-right: 0;
   /* filter: grayscale(1); */
 }
-
+/* 
 .shania img:hover {
   opacity: 1;
-  filter: initial; /* For IE8 and earlier */
-}
-
-.about-div {
-  padding-right: 70px;
-}
-
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem; /* Footer height */
-  bottom: 0;
-}
-
-/* #about,
-#project,
-.contact {
-  padding-top: 20vh;
-  height: 90vh;
+  filter: initial; For IE8 and earlier
 } */
 
 @media only screen and (max-width: 768px) {

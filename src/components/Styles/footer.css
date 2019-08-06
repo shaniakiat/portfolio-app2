@@ -41,6 +41,16 @@
   margin-bottom: 30px;
 }
 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem; /* Footer height */
+  bottom: 0;
+}
+
 @media only screen and (max-width: 768px) {
   .footer a {
     color: var(--mainBlue);
