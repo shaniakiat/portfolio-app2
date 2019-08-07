@@ -19,13 +19,13 @@ export default class Navbar extends Component {
         path: "/#about",
         text: "about",
       },
+      // {
+      //   class: 3,
+      //   path: "/#project",
+      //   text: "project",
+      // },
       {
         class: 3,
-        path: "/#project",
-        text: "project",
-      },
-      {
-        class: 4,
         path: "/#contact",
         text: "contact",
       },
@@ -64,6 +64,7 @@ export default class Navbar extends Component {
                   </li>
                 )
               })}
+              {/* <li color="white">ha</li> */}
             </ul>
           </div>
         </nav>

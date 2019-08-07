@@ -1,0 +1,245 @@
+html,
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+  letter-spacing: 0.3px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.center-inner {
+  padding: 60px 120px;
+}
+
+.center-inner-inner {
+  padding: 20px;
+  /* background: #f5f6ff; */
+}
+
+@media screen and (max-width: 400px) {
+  .center-inner {
+    padding: 30px;
+  }
+  .center-inner-inner {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .center {
+    display: block;
+    width: 100%;
+  }
+}
+
+.center {
+  float: center;
+}
+
+.center a {
+  color: #000;
+}
+
+.center h4,
+.center .content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.center h4 {
+  width: 100%;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #893760;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.center ul {
+  padding: 0;
+  margin: 0;
+}
+
+.center .content {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 50px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 600px) {
+  .center h4,
+  .center .content {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+  }
+}
+
+.center .content ul.description {
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.center .introduction .intro-p:first-of-type {
+  margin-top: 0;
+}
+
+.center .introduction .job-pls {
+  font-weight: 500;
+  /* background-color: #2a54f5; */
+  background-image: -webkit-linear-gradient(45deg, #cb5575 0%, #cb5575 100%);
+  background-image: linear-gradient(45deg, #cb5575 0%, #cb5575 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.center .skills .skill-category {
+  margin-bottom: 10px;
+}
+
+.center .skills .skill-category:last-of-type {
+  margin-bottom: 0px;
+}
+
+.center .skills .skill-category > strong {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.center .education {
+  font-size: 16px;
+}
+
+.center .education .university {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.center .education .college {
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.center .education .major,
+.center .education .degree,
+.center .education .conc,
+.center .education .study-abroad {
+  font-size: 15px;
+}
+
+.center .education .major > strong,
+.center .education .degree > strong,
+.center .education .conc > strong,
+.center .education .study-abroad > strong {
+  font-weight: 500;
+}
+
+.center .education .study-abroad {
+  margin-top: 10px;
+}
+
+.center .education .grad-date {
+  text-transform: uppercase;
+  color: #cb5575;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.center .experience .exp-item {
+  margin-bottom: 30px;
+}
+
+.center .experience .exp-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.center .experience .exp-item .job {
+  margin: 0;
+  font-weight: 700;
+}
+
+.center .experience .exp-item .duration {
+  font-size: 13px;
+  font-weight: 500;
+  float: center;
+  color: #cb5575;
+  text-transform: uppercase;
+  position: relative;
+  top: 1px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 340px) {
+  .center .experience .exp-item .duration {
+    float: none;
+  }
+}
+
+.center .experience .exp-item .title {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.center .projects .project-item {
+  margin-bottom: 20px;
+}
+
+.center .projects .project-title {
+  font-weight: 700;
+}
+
+.center .projects .project-desc {
+  font-size: 15px;
+  margin: 0 0 10px;
+}
+
+.center a.resume {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 0px;
+  background-color: #893760;
+  box-shadow: 0 14px 28px rgb(203, 85, 117, 0.3),
+    0 10px 10px rgb(203, 85, 117, 0.3);
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.center a.resume:hover {
+  /* background-color: rgb(203, 85, 117); */
+  box-shadow: 0 20px 20px rgb(203, 85, 117, 0.4),
+    0 10px 30px rgb(203, 85, 117, 0.4);
+}
+
+.center a.resume .resume-link {
+  font-weight: 700;
+  font-size: 15px;
+  /* letter-spacing: 1pt; */
+  text-transform: uppercase;
+  background-image: -webkit-linear-gradient(45deg, #fff 0%, #fff 100%);
+  background-image: linear-gradient(45deg, #fff 0%, #fff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Shania from "../../../images/profile.png"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 import Fade from "react-reveal/Fade"
 
 class About extends Component {
@@ -33,6 +33,11 @@ class About extends Component {
           </div>
           <Fade bottom>
             <img src={Shania} alt="me" width="90%"></img>
+          </Fade>
+        </div>
+        <div class="resume">
+          <Fade bottom>
+            <Link to="/resume">online resume</Link>
           </Fade>
         </div>
         {/* <a href={"/"} target="_blank" rel="noopener noreferrer" class="btn">

@@ -19,9 +19,10 @@ import "../components/Styles/project.css"
 import "../components/Styles/contact.css"
 import "../components/Styles/footer.css"
 import "../components/Styles/error.css"
+import "../components/Styles/resume.css"
 
-import Navbar from "./Globals/Navbar"
-import Footer from "./Globals/Footer"
+// import Navbar from "./Globals/Navbar"
+// import Footer from "./Globals/Footer"
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
@@ -43,9 +44,9 @@ const Layout = ({ children }) => (
       <>
         <div id="page-container">
           <div id="content-wrap">
-            <Navbar />
+            {/* <Navbar /> */}
             {children}
-            <Footer />
+            {/* <Footer /> */}
           </div>
         </div>
       </>
