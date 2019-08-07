@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import logo from "../../images/logo-nav.svg"
-import { TiThMenu } from "react-icons/ti"
+import { FaAlignRight } from "react-icons/fa"
 import Fade from "react-reveal/Fade"
 
 export default class Navbar extends Component {
@@ -51,7 +51,7 @@ export default class Navbar extends Component {
             type="button"
             onClick={this.navbarHandler}
           >
-            <TiThMenu> </TiThMenu>
+            <FaAlignRight> </FaAlignRight>
           </button>
           <div className={this.state.css}>
             <ul className="navbar-nav ml-auto">

@@ -32,9 +32,12 @@ class About extends Component {
             </a> */}
           </div>
           <Fade bottom>
-            <img src={Shania} alt="me" width="100%"></img>
+            <img src={Shania} alt="me" width="90%"></img>
           </Fade>
         </div>
+        {/* <a href={"/"} target="_blank" rel="noopener noreferrer" class="btn">
+          {this.props.button}
+        </a> */}
       </section>
     )
   }

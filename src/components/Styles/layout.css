@@ -96,23 +96,17 @@ svg {
 } */
 
 @media only screen and (max-width: 768px) {
-  header,
-  /* #about, */
-  #project,
+  .home,
+  .about,
+  .project,
   .contact {
     height: 100vh;
-  }
-
-  h1 {
-    font-size: 30pt;
-    font-weight: 700;
-    color: var(--mainWhite);
-    letter-spacing: 1.5px !important;
-  }
-
-  header p {
-    font-size: 1rem;
-    padding-right: 80px;
+    padding: 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--mainDark) !important;
   }
 
   /* header a {
@@ -134,4 +128,16 @@ svg {
   .contact p {
     font-size: 0.8rem;
   }
+}
+
+.error .container {
+  padding: 100px;
+  text-align: center;
+}
+.error h1 {
+  font-size: 75pt;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1.5px !important;
+  margin-bottom: 20px;
 }

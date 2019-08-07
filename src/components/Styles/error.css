@@ -1,0 +1,11 @@
+.error .container {
+  padding: 100px;
+  text-align: center;
+}
+.error h1 {
+  font-size: 75pt;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1.5px !important;
+  margin-bottom: 20px;
+}

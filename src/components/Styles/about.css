@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   justify-items: center;
+  margin-left: 20px;
 }
 
 .about h1 {
@@ -15,6 +16,7 @@
   color: var(--mainWhite);
   letter-spacing: 1.5px !important;
   padding-left: 15px;
+  margin-left: 20px;
 }
 
 .about h1::after {
@@ -36,7 +38,7 @@
 @media (max-width: 768px) {
   .about .container {
     grid-template-columns: 1fr;
-    text-align: center;
+    text-align: left;
     grid-gap: 0;
     padding: 0;
     margin: 0;
@@ -51,16 +53,32 @@
   }
 
   .about h1 {
-    font-size: 30pt;
+    font-size: 20pt;
     font-weight: 700;
     color: var(--mainWhite);
     letter-spacing: 1.5px !important;
+    padding-left: 0;
+    padding-bottom: 20px;
     margin: 0;
   }
 
+  .about h1::after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid var(--mainWhite);
+    width: 12rem;
+    margin: 0 1rem;
+    transform: translateY(-8px);
+  }
   .about img {
     width: 60%;
     margin: auto;
     align-content: flex-start;
+  }
+  .about p {
+    margin: 1rem 0;
+    color: var(--mainBlue);
+    font-size: 10pt;
+    font-family: Raleway, sans-serif !important;
   }
 }

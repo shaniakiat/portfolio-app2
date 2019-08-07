@@ -18,6 +18,7 @@ import "../components/Styles/about.css"
 import "../components/Styles/project.css"
 import "../components/Styles/contact.css"
 import "../components/Styles/footer.css"
+import "../components/Styles/error.css"
 
 import Navbar from "./Globals/Navbar"
 import Footer from "./Globals/Footer"
