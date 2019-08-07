@@ -1,6 +1,5 @@
 html,
 body {
-  font-family: Helvetica;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -10,6 +9,10 @@ body {
 }
 
 a {
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: none;
 }
 
@@ -89,6 +92,13 @@ a {
     vertical-align: top;
     width: 100%;
   }
+  .center-inner {
+    padding: 18px;
+    padding-bottom: 25px;
+  }
+  .center a.resume {
+    margin-bottom: 20px;
+  }
 }
 
 .center .content ul.description {
@@ -121,6 +131,7 @@ a {
 
 .center .skills .skill-category > strong {
   text-transform: uppercase;
+  font-weight: 700;
   font-size: 14px;
 }
 

@@ -125,12 +125,12 @@ export default function resume() {
                   <div className="title">Mathematics Tutor</div>
                   <ul className="description">
                     <li>
-                      Tutor La Salle’s undergraduate students in college
+                      Tutored La Salle’s undergraduate students in college
                       algebra, pre-calculus, and calculus I.
                     </li>
                     <li>
-                      Assist students individually or in small groups to enhance
-                      their math skills.
+                      Assisted students individually or in small groups to
+                      enhance their math skills.
                     </li>
                   </ul>
                 </div>
