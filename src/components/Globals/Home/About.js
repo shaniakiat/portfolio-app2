@@ -15,8 +15,11 @@ class About extends Component {
           <div>
             <Fade bottom>
               <p>
-                I am an undergraduate at La Salle University, Philadelphia,
-                majoring in mathematics and computer science.
+                I am an undergraduate at{" "}
+                <a href="https://lasalle.edu" class="lasalle">
+                  La Salle University
+                </a>
+                , Philadelphia, majoring in mathematics and computer science.
                 <br /> <br />
                 My career goals include becoming a software engineer and working
                 for a product or tool I believe in while giving a positive
@@ -37,7 +40,7 @@ class About extends Component {
         </div>
         <div class="resume">
           <Fade bottom>
-            <Link to="/resume">online resume</Link>
+            <Link to="/resume">online resume </Link>
           </Fade>
         </div>
         {/* <a href={"/"} target="_blank" rel="noopener noreferrer" class="btn">
