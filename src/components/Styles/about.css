@@ -109,8 +109,9 @@
     display: inline-block;
     content: "";
     border-top: 1px solid var(--mainWhite);
-    width: 9rem;
-    margin: 0 1rem;
+    width: 174px;
+    margin: 0;
+    margin-left: 12px;
     transform: translateY(-8px);
   }
   .about img {
@@ -119,7 +120,7 @@
     align-content: flex-start;
   }
   .about p {
-    margin: 1rem 0;
+    margin: 20px 0;
     color: var(--mainBlue);
     font-size: 10pt;
     font-family: Raleway, sans-serif !important;
