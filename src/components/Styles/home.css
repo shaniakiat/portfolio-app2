@@ -27,6 +27,9 @@ header a {
   /* font-size: 3rem; */
   padding-left: 12px;
 }
+header a:hover{
+color: #fff;
+}
 
 header .social:hover {
   color: #fff;
