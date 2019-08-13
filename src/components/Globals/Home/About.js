@@ -26,8 +26,18 @@ class About extends Component {
                 impact on the world through my work and interactions with
                 others.
                 <br /> <br />
+                On campus, I am the secretary and public relations for La
+                Salle’s Mathematical Assoc. of America. I am also involved in La
+                Salle’s Association for Computing Machinery and Programming
+                Team.
+                <br /> <br />
+                My past involvement outside La Salle includes my role as the
+                Creative Director of PERMIAS is short for Persatuan Mahasiswa
+                Indonesia di Amerika Serikat, or the Indonesian Students'
+                Association in America.
+                <br /> <br />
                 Aside from mathematics, computer science, and technology, I
-                enjoy photography, design, and coffee.
+                enjoy design, photography, and coffee.
               </p>
             </Fade>
             {/* <a href="#" class="btn">

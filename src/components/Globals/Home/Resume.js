@@ -10,7 +10,7 @@ export default function resume() {
             <div className="introduction">
               <h4>Intro</h4>
               <div className="content">
-                <p className="intro-p">Hi, I'm Shania Kiat</p>
+                <p className="intro-p">Hi there, I'm Shania Kiat</p>
                 <p className="intro-p">
                   I&#39;m an undergraduate at La Salle University, Philadelphia,
                   majoring in mathematics and computer science.
@@ -194,8 +194,24 @@ export default function resume() {
                     shaniakiat.dev
                   </a>
                   <p className="project-desc">
-                    Portfolio site designed and coded from scratch to showcase
+                    Develop and design a portfolio site using Gatsby to showcase
                     my skills and past work
+                  </p>
+                </div>
+                <div className="project-item">
+                  <a
+                    className="project-title"
+                    href="https://devpost.com/software/gratis"
+                    target="_blank"
+                  >
+                    Gratis (Major League Hacking’s Hack WCU Hackathon)
+                  </a>
+                  <p className="project-desc">
+                    Develop a web application using MERN (MongoDB, Express.js,
+                    React, Node.js) stack that aims to provide a platform that
+                    connects businesses (restaurants/cafeterias) that have
+                    surplus food and shelters to provide a solution to the
+                    hunger problem in Philadelphia.
                   </p>
                 </div>
               </div>
