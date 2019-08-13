@@ -36,7 +36,7 @@ class About extends Component {
                 Indonesia di Amerika Serikat, or the Indonesian Students'
                 Association in America.
                 <br /> <br />
-                Aside from mathematics, computer science, and technology, I
+                Aside from computer science, technology, and mathematics, I
                 enjoy design, photography, and coffee.
               </p>
             </Fade>

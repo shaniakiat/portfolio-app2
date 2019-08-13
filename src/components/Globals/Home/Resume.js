@@ -10,7 +10,7 @@ export default function resume() {
             <div className="introduction">
               <h4>Intro</h4>
               <div className="content">
-                <p className="intro-p">Hi there, I'm Shania Kiat</p>
+                <p className="intro-p">Hi there, My name is Shania Kiat</p>
                 <p className="intro-p">
                   I&#39;m an undergraduate at La Salle University, Philadelphia,
                   majoring in mathematics and computer science.
