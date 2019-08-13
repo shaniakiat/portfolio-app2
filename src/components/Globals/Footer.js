@@ -37,8 +37,7 @@ export default function Footer() {
           </div>
           <div className="text-center text-capitalize">
             <h3 className="copyright">
-              Designed & Developed by Shania Kiat&nbsp;
-              {new Date().getFullYear()}
+              &copy; {new Date().getFullYear()} Shania Kiat
             </h3>
           </div>
         </div>

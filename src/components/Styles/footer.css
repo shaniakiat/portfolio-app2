@@ -33,7 +33,7 @@
   -o-transition-duration: 0.5s;
 }
 svg {
-  width: 20px;
+  width: 30px;
 }
 .copyright {
   color: var(--mainBlue) !important;
@@ -76,6 +76,9 @@ svg {
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
+  }
+  svg {
+    width: 20px;
   }
   .copyright {
     font-size: 11px !important;
