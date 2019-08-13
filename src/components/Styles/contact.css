@@ -45,6 +45,26 @@
   background-size: 4px 50px;
 }
 
+@media (max-width: 900px) {
+  .contact h1 {
+    font-size: 35pt;
+    font-weight: 700;
+    color: var(--mainWhite);
+    letter-spacing: 1.5px !important;
+    text-align: center;
+  }
+
+  .contact h1::before,
+  .contact h1::after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 4rem;
+    margin: 0 0.5rem;
+    transform: translateY(-9px);
+  }
+}
+
 @media (max-width: 768px) {
   .contact h1 {
     font-size: 20pt;

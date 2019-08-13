@@ -5,11 +5,11 @@ import { FaInstagram } from "react-icons/fa"
 import { FaDribbbleSquare } from "react-icons/fa"
 import { FaBehanceSquare } from "react-icons/fa"
 import { FaCodepen } from "react-icons/fa"
-import Fade from "react-reveal/Fade"
+import Zoom from "react-reveal/Zoom"
 
 export default function Footer() {
   return (
-    <Fade bottom>
+    <Zoom>
       <footer className="footer">
         <div className="container">
           <div class="text-center center-block">
@@ -43,6 +43,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </Fade>
+    </Zoom>
   )
 }
