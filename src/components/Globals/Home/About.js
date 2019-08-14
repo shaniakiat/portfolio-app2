@@ -32,9 +32,9 @@ class About extends Component {
                 Team.
                 <br /> <br />
                 My past involvement outside La Salle includes my role as the
-                Creative Director of PERMIAS is short for Persatuan Mahasiswa
-                Indonesia di Amerika Serikat, or the Indonesian Students'
-                Association in America.
+                Creative Director of PERMIAS (Persatuan Mahasiswa Indonesia di
+                Amerika Serikat) or the Indonesian Students' Association in
+                America.
                 <br /> <br />
                 Aside from computer science, technology, and mathematics, I
                 enjoy design, photography, and coffee.
