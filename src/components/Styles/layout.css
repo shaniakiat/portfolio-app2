@@ -62,7 +62,7 @@ svg {
 .about,
 .project,
 .contact {
-  height: 100vh;
+  height: 100%;
   padding: 100px;
   background-size: cover;
   display: flex;
