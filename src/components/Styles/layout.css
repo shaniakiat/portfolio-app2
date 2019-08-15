@@ -86,7 +86,7 @@ img {
   .about,
   .project,
   .contact {
-    height: 100vh;
+    height: 100%;
     padding: 20px;
     background-size: cover;
     display: flex;
