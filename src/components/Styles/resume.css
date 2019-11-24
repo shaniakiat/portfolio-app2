@@ -17,7 +17,7 @@ a:hover {
 }
 
 .center {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 100%;
   display: inline-block;
   vertical-align: top;
@@ -67,7 +67,7 @@ a:hover {
   margin: 0 0 20px;
   text-transform: uppercase;
   font-size: 20px;
-  background-color: #893760;
+  background-color: #a53c2e;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -114,8 +114,8 @@ a:hover {
 .center .introduction .job-pls {
   font-weight: 500;
   /* background-color: #2a54f5; */
-  background-image: -webkit-linear-gradient(45deg, #cb5575 0%, #cb5575 100%);
-  background-image: linear-gradient(45deg, #cb5575 0%, #cb5575 100%);
+  background-image: -webkit-linear-gradient(45deg, #b34233 0%, #b34233 100%);
+  background-image: linear-gradient(45deg, #b34233 0%, #b34233 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -184,7 +184,7 @@ a:hover {
 
 .center .education .grad-date {
   text-transform: uppercase;
-  color: #cb5575;
+  color: #b34233;
   font-size: 13px;
   font-weight: 500;
   margin-top: 20px;
@@ -207,7 +207,7 @@ a:hover {
   font-size: 13px;
   font-weight: 500;
   float: center;
-  color: #cb5575;
+  color: #b34233;
   text-transform: uppercase;
   position: relative;
   top: 1px;
@@ -245,9 +245,9 @@ a:hover {
   margin: 0 auto;
   text-align: center;
   padding: 15px 0px;
-  background-color: #893760;
-  box-shadow: 0 14px 28px rgb(203, 85, 117, 0.3),
-    0 10px 10px rgb(203, 85, 117, 0.3);
+  background-color: #a53c2e;
+  box-shadow: 0 14px 28px rgba(226, 123, 82, 0.3),
+    0 10px 10px rgba(226, 123, 82, 0.3);
   border-radius: 30px;
   transition: all 0.3s ease;
 }
@@ -267,4 +267,8 @@ a:hover {
   background-image: linear-gradient(45deg, #fff 0%, #fff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.center a:hover {
+  color: #8d2315;
 }
