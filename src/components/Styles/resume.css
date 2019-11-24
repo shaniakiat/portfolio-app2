@@ -135,6 +135,20 @@ a:hover {
   font-size: 14px;
 }
 
+.center .awards .achivement {
+  margin-bottom: 10px;
+}
+
+.center .awards .achivement:last-of-type {
+  margin-bottom: 0px;
+}
+
+.center .awards .achivement > strong {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
 .center .education {
   font-size: 16px;
 }

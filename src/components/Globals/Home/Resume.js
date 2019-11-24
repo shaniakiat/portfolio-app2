@@ -18,8 +18,8 @@ export default function resume() {
 
                 <span className="intro-p job-pls">
                   I&#39;m currently looking for my second and final summer
-                  internship (from May to August 2020) before I graduate in
-                  2021!
+                  internship (from May to August 2020) as a Software Engineer
+                  Intern before I graduate in 2021!
                 </span>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function resume() {
                   </a>
                 </div>
                 <div className="major">
-                  <strong>Majors:</strong> Mathematics & Computer Science{" "}
+                  <strong>Majors:</strong> Computer Science & Mathematics{" "}
                 </div>
                 <div className="degree">
                   <strong>Degree:</strong> Bachelor of Science
@@ -157,6 +157,47 @@ export default function resume() {
                       between offices.
                     </li>
                   </ul>
+                </div>
+              </div>
+            </div>
+            <div className="awards">
+              <h4>Awards</h4>
+              <div className="content">
+                <div className="achivement">
+                  <span>
+                    Placed 2nd in the ACM-ICPC Mid-Atlantic Regional 2019
+                    Programming Competition at Washington College &nbsp;
+                  </span>
+                  <strong>(Fall 2019)</strong>
+                </div>
+                <div className="achivement">
+                  <span>
+                    IT Leadership Award from La Salle University Computer
+                    Science Advisory Board &nbsp;
+                  </span>
+                  <strong>(Fall 2019)</strong>
+                </div>
+                <div className="achivement">
+                  <span>
+                    Member of Upsilon Pi Epsilon Computer Science Honors Society
+                    &nbsp;
+                  </span>
+                  <strong>(Spring 2019)</strong>
+                </div>
+                <div className="achivement">
+                  <span>
+                    1st Place Winner of Major League Hacking's Hack WCU
+                    Hackathon 2019 &nbsp;
+                  </span>
+                  <strong>(Spring 2019)</strong>
+                </div>
+                <div className="achivement">
+                  <span>National Science Foundation Scholarship &nbsp;</span>
+                  <strong>(Spring 2018)</strong>
+                </div>
+                <div className="achivement">
+                  <span>Founder's Scholarship &nbsp;</span>
+                  <strong>(Fall 2017)</strong>
                 </div>
               </div>
             </div>
