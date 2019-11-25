@@ -18,7 +18,7 @@ class Header extends Component {
           <Fade bottom>
             <p>
               I'm an undergraduate student at La Salle University, PA <br />
-              majoring in mathematics and computer science.
+              majoring in computer science and mathematics.
             </p>
           </Fade>
           <Fade bottom>
