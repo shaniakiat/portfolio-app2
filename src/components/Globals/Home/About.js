@@ -19,8 +19,7 @@ class About extends Component {
                 <a href="https://lasalle.edu" class="lasalle">
                   La Salle University
                 </a>
-                , Philadelphia, majoring in and computer science and
-                mathematics.
+                , Philadelphia, majoring in computer science and mathematics.
                 <br /> <br />
                 My career goals include becoming a software engineer and working
                 for a product or tool I believe in while giving a positive
