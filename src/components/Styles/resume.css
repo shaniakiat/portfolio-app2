@@ -214,6 +214,16 @@ a:hover {
   margin-bottom: 5px;
 }
 
+.center .awards .achivement .page {
+  font-size: 13px;
+  font-weight: 500;
+  float: center;
+  color: #b34233;
+  text-transform: uppercase;
+  position: relative;
+  top: 1px;
+}
+
 @media screen and (max-width: 340px) {
   .center .experience .exp-item .duration {
     float: none;

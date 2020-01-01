@@ -189,7 +189,15 @@ export default function resume() {
                     1st Place Winner of Major League Hacking's Hack WCU
                     Hackathon 2019 &nbsp;
                   </span>
-                  <strong>(Spring 2019)</strong>
+
+                  <strong>(Spring 2019)&nbsp;</strong>
+                  <a
+                    className="page"
+                    href="https://devpost.com/software/gratis"
+                    target="_blank"
+                  >
+                    Learn More&nbsp;
+                  </a>
                 </div>
                 <div className="achivement">
                   <span>National Science Foundation Scholarship &nbsp;</span>
