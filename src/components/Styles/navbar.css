@@ -40,7 +40,7 @@ nav div ul li .nav-link:after {
   width: 0%;
   content: ".";
   color: transparent;
-  background: #4bb0a9;
+  background: var(--mainGreen);
   height: 3px;
 }
 nav div ul li .nav-link:hover:after {
@@ -48,7 +48,7 @@ nav div ul li .nav-link:hover:after {
 }
 
 .navbar-dark .navbar-toggler {
-  color: var(--mainBlue);
+  color: var(--mainGreen);
   border-color: transparent;
   outline: none;
 }
@@ -63,7 +63,7 @@ nav div ul li .nav-link:hover:after {
     width: 0%;
     content: ".";
     color: transparent;
-    background: #4bb0a9;
+    background: var(--mainGreen);
     height: 3px;
   }
   nav div ul li .nav-link:hover:after {

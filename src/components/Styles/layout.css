@@ -4,13 +4,33 @@
 font-family: 'Montserrat', sans-serif; 
 font-family: 'Raleway', sans-serif;
 */
-:root {
+/* :root {
   --mainDark: rgb(23, 38, 43);
   --mainGreen: #317a79;
   --mainBlue: rgb(75, 176, 169);
-  --mainGrey: #def1f1;
   --mainWhite: #ffffff;
+} */
+
+:root {
+  --mainDark: #2c3d63;
+  --mainGreen: #ff6f5e;
+  --mainBlue: #addcca;
+  --mainWhite: #f7f8f3;
 }
+
+/* :root {
+  --mainDark: #043353;
+  --mainGreen: #18a4e0;
+  --mainBlue: #d3dde6;
+  --mainWhite: #faf8f0;
+} */
+
+/* :root {
+  --mainDark: #1f4172;
+  --mainGreen: #febbbb;
+  --mainBlue: #b9e7e6;
+  --mainWhite: #ffffff;
+} */
 
 body {
   background-color: var(--mainDark);
