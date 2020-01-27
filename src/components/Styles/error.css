@@ -1,11 +1,66 @@
-.error .container {
-  padding: 100px;
+.error {
   text-align: center;
+  padding: 15%;
 }
 .error h1 {
-  font-size: 75pt;
+  font-size: 12vw;
   font-weight: 700;
   color: #fff;
   letter-spacing: 1.5px !important;
-  margin-bottom: 20px;
+}
+
+.error h2 {
+  margin: 1.5rem 0;
+  color: var(--mainBlue);
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: Raleway, sans-serif !important;
+}
+.error .homeButton {
+  color: var(--mainDark);
+  background-color: var(--mainBlue);
+  font-size: 0.8rem;
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 600;
+  background: linear-gradient(
+    to bottom,
+    var(--mainGreen) 0%,
+    var(--mainGreen) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  transition: background-size 0.2s;
+  box-shadow: none;
+  border-image: none;
+  border-radius: 0;
+  padding: 0;
+  text-decoration: none;
+  text-transform: none;
+  margin: 0;
+  font-size: 2vw;
+}
+
+.error .homeButton:hover {
+  box-shadow: none;
+  background-size: 3vw 7vw;
+}
+
+.error .homeButton {
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .error {
+    padding: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  .error {
+    padding: 50% 0;
+  }
 }
