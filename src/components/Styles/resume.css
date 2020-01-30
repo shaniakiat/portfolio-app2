@@ -16,6 +16,7 @@ a {
 }
 
 a:hover {
+  color: var(--mainWhite) !important;
   text-decoration: none;
 }
 
@@ -198,7 +199,7 @@ a:hover {
 
 .center .education .grad-date {
   text-transform: uppercase;
-  color: var(--mainBlue);
+  color: var(--mainGreen);
   font-size: 13px;
   font-weight: 500;
   margin-top: 20px;
@@ -262,37 +263,52 @@ a:hover {
   margin: 0 0 10px;
 }
 
-.center a.resume {
-  display: block;
-  width: 100%;
-  max-width: 350px;
-  margin: 0 auto;
+.resume-div {
   text-align: center;
-  padding: 15px 0px;
+}
+.center a.resume {
+  color: var(--mainDark);
   background-color: var(--mainBlue);
-  box-shadow: 0 14px 28px rgba(226, 123, 82, 0.3),
-    0 10px 10px rgba(226, 123, 82, 0.3);
-  border-radius: 30px;
-  transition: all 0.3s ease;
+  font-size: 0.8rem;
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 600;
+  background: linear-gradient(
+    to bottom,
+    var(--mainGreen) 0%,
+    var(--mainGreen) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  color: hsl(0, 0%, 100%);
+  transition: background-size 0.2s;
+  box-shadow: none;
+  border-image: none;
+  border-radius: 0;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 16px;
 }
 
 .center a.resume:hover {
-  /* background-color: rgb(203, 85, 117); */
-  box-shadow: 0 14px 28px rgba(235, 171, 145, 0.3),
-    0 10px 10px rgba(240, 179, 153, 0.3);
+  box-shadow: none;
+  background-size: 4px 50px;
 }
 
-.center a.resume .resume-link {
+/* .center a.resume:hover {
+  background-color: rgb(203, 85, 117);
+  box-shadow: 0 14px 28px rgba(235, 171, 145, 0.3),
+    0 10px 10px rgba(240, 179, 153, 0.3);
+} */
+
+/* .center a.resume .resume-link {
   font-weight: 700;
   font-size: 15px;
-  /* letter-spacing: 1pt; */
   text-transform: uppercase;
   background-image: -webkit-linear-gradient(45deg, #fff 0%, #fff 100%);
   background-image: linear-gradient(45deg, #fff 0%, #fff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.center a:hover {
-  color: var(--mainBlue);
-}
+} */

@@ -266,13 +266,15 @@ export default function resume() {
               </div>
             </div>
           </div>
-          <a
-            className="resume"
-            href="https://shaniakiat.dev/resume.pdf"
-            target="_blank"
-          >
-            <div className="resume-link">Grab a PDF of my full resume</div>
-          </a>
+          <div className="resume-div">
+            <a
+              className="resume"
+              href="https://shaniakiat.dev/resume.pdf"
+              target="_blank"
+            >
+              <div className="resume-link">Grab a PDF of my full resume</div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
