@@ -1,11 +1,11 @@
 @import url("layout.css");
 
 header .container {
-  padding: 100px;
+  padding: 80px;
   text-align: right;
 }
 header h1 {
-  font-size: 70pt;
+  font-size: 8vw;
   font-weight: 700;
   color: var(--mainWhite);
   letter-spacing: 1.5px !important;
@@ -14,7 +14,7 @@ header h1 {
 
 header p {
   font-family: "Raleway", sans-serif !important;
-  font-size: 12pt;
+  font-size: 1.2vw;
   font-weight: 600;
   color: var(--mainGreen);
   margin-bottom: 25px;

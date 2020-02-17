@@ -44,6 +44,7 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif !important;
   letter-spacing: 0.5pt;
+  overflow: hidden;
   /* letter-spacing: 0.1rem !important; */
 }
 

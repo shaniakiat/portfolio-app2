@@ -44,7 +44,6 @@
 .about a {
   color: var(--mainDark);
   background-color: var(--mainBlue);
-  font-size: 0.8rem;
   font-family: "Raleway", sans-serif !important;
   font-weight: 600;
   background: linear-gradient(
@@ -62,7 +61,6 @@
   border-image: none;
   border-radius: 0;
   padding: 0;
-  text-decoration: none;
   text-transform: none;
   margin: 0;
   font-size: 16px;
