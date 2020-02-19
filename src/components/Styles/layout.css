@@ -44,7 +44,7 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif !important;
   letter-spacing: 0.5pt;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* letter-spacing: 0.1rem !important; */
 }
 
@@ -83,13 +83,14 @@ svg {
 .about,
 .project,
 .contact {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 100px;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: var(--mainDark) !important;
+  overflow: hidden;
 }
 
 img {
