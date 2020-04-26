@@ -2,10 +2,10 @@
   <img alt="Logo" src="https://github.com/shaniakiat/portfolio-app2/blob/master/src/images/logo.svg" width="100" />
 </div>
 <h1 align="center">
-  shaniakiat.dev - v2
+  shaniakiat.netlify.app - v2
 </h1>
 <p align="center">
-  The second iteration of <a href="https://shaniakiat.dev" target="_blank">shaniakiat.dev</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The second iteration of <a href="https://shaniakiat.netlify.app" target="_blank">shaniakiat.netlify.app</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <p align="center">
   Previous iterations:

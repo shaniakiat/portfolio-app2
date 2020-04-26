@@ -17,7 +17,7 @@ const IndexPage = () => (
     <Navbar />
     <Header id="home" class="header" title="Shania Kiat" button="Resume" />
     <About id="about" class="about" title="About Me" />
-    {/* <Project id="project" class="project" title="My Projects" /> */}
+    <Project id="project" class="project" title="My Projects" />
     <Contact id="contact" class="contact" title="Get In Touch" />
     <Footer />
   </Layout>

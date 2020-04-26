@@ -83,13 +83,16 @@ svg {
 .about,
 .project,
 .contact {
-  /* height: 100vh; */
+  height: 100vh;
   padding: 100px;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: var(--mainDark) !important;
+  /* overflow: hidden; */
+}
+.project {
   overflow: hidden;
 }
 

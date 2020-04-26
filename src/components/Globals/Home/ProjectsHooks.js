@@ -7,13 +7,6 @@ const ProjectsHooks = () => {
   const [repoData, setRepoData] = useState([])
   const [topRepos, setTopRepos] = useState([])
 
-  //   const handleToogle = e => {
-  //     console.log(e)
-  //     setIdFromFoodButtonClick("" + e)
-  //     console.log(idFromFoodButtonClick.replace(/\s/g, "+").toLocaleLowerCase())
-  //     setToggled(true) //if this is true than open up the textbox with the list of ingredients
-  //   }
-
   const getTopRepos = type => {
     const LIMIT = 9
     const map = {
